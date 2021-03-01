@@ -1,0 +1,241 @@
+
+
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #2C2D3C;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+p{
+    line-height: 26px;
+}
+
+.bg-primary,
+.btn-primary{
+    background-color: #EBB970 !important;
+}
+
+.section-title{
+    line-height: 43px;
+    letter-spacing: 1.06px;
+    margin-bottom: 40px;
+}
+
+.section-title:after{
+    content: '';
+    width: 90px;
+    height: 2px;
+    background-color: #EBB970;
+    display: block;
+    margin-top: 22px;
+}
+
+.section-title.text-center:after{
+    margin: 22px auto 0;
+}
+
+/*HEADER*/
+
+.navbar-brand{
+    max-width: 50%;
+}
+
+.nav-tabs{
+    color: #2C2D3C;
+    background: transparent;
+    border-bottom: 2px solid #2C2D3C;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-toggler{
+    border: none;
+    overflow: hidden;
+}
+.navbar-toggler span{
+    width: 30px;
+    height: 3px;
+    display: block;
+    background-color: #2C2D3C;
+    margin-bottom: 5px;
+    transition: 0.3s linear;
+}
+
+.navbar-toggler[aria-expanded='true'] span:nth-of-type(2){
+    transform: translateX(-60px);
+}
+
+.navbar-toggler[aria-expanded='true'] span:nth-of-type(1){
+    transform: rotate(45deg) translate(2px,1px);
+    transform-origin: 0 0; 
+}
+
+.navbar-toggler[aria-expanded='true'] span:nth-of-type(3){
+    transform: rotate(-45deg) translate(-5px,4px);
+    transform-origin: 0 0; 
+}
+
+.navbar-light .navbar-nav .nav-link{
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2C2D3C;
+    transition: 0.3s linear;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #2C2D3C;
+    background: transparent;
+    border-bottom: 2px solid #2C2D3C;
+}
+}
+
+/*Home*/
+
+.home{
+    padding: 150px 0;
+    background-position: center center;
+    background-size: cover;
+}
+
+.home article{
+    padding:20px;
+    max-width: 350px;
+}
+.home article p{
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+/*ABOUT US*/
+
+.about .about-content p{
+    font-size: 18px;
+    letter-spacing: 0.7px;
+}
+
+/*SERVICES*/
+.services .service-item{
+    box-shadow: 0 12px 13px 0 rgba(145,145,145,0.5);
+    transition: 0.3s linear;
+}
+
+.services .service-item:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px 0 rgba(0,0,0,1);
+}
+
+
+.services .service-item .service-icon{
+    width: 88px;
+    height: 88px;
+    line-height: 88px;
+    border-radius: 50%;
+    background-color: #EBB970;
+    font-size: 3rem;
+    transition: 0.3s linear;
+}
+
+.services .service-item:hover .service-icon{
+    transform: rotate(360deg);
+}
+
+/*ACHIEVEMNTS*/
+
+.achievements{
+    padding: 70px 0;
+    background-size: cover;
+    background-position: top center;
+}
+
+.achievements .achievement-item h3{
+    font-size: 50px;
+}
+
+.achievements .achievement-item p{
+    font-size: 18px;
+}
+
+/*PRODUCTS*/
+
+.products .product-item{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.products .product-item .product-info{
+    bottom: 14px;
+    left: 14px;
+    right: 14px;
+    padding: 15px;
+}
+
+.products .product-item .product-info p{
+    margin-bottom: 0;
+}
+
+.products .product-item > a{
+    margin-bottom: 20px;
+}
+
+.product-title a{
+    color: #2C2D3C;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 26px;
+    display: block;
+    text-transform: uppercase;
+}
+
+/*CONTACT*/
+
+.contact .contact-form .form-control{
+    border-radius: 0;
+    border: 1px solid #2C2D3C;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 10px;
+}
+
+.contact .contact-form .form-control:focus{
+    box-shadow:0 0 5px #2C2D3C;
+}
+
+.contact .contact-form textarea.form-control{
+    height: auto;
+    resize: none;
+}
+
+.contact aside p a{
+    color: #2C2D3C;
+}
+
+.contact aside p span{
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+}
+
+.social a{
+    color: #2C2D3C;
+    font-size: 20px;
+    margin: 0 5px;
+    text-decoration: none;
+    transition: 0.2s linear;
+}
+
+.social a:hover{
+    transform:scale(1.1)
+}
